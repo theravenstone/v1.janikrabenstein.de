@@ -18,7 +18,7 @@
           <div class="flex flex-col items-center text-center justify-center">
             <h2 class="font-medium title-font mt-4 text-lg">Janik Rabenstein</h2>
             <div class="w-12 h-1 bg-primary rounded mt-2 mb-4"></div>
-            <p class="text-base text-slate-500">18 Jahre jung.<br/>Aufgewachsen im Fichtelgebirge.<br/></p>
+            <p class="text-base text-slate-500">{{ age }} Jahre jung.<br/>Aufgewachsen im Fichtelgebirge.<br/></p>
           </div>
         </div>
         <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
@@ -32,7 +32,26 @@
 
 <script>
 export default {
-
+  data() {
+    return {
+      age: 0
+    }
+  },
+  methods: {
+    getAge(dateString) {
+      var today = new Date();
+      var birthDate = new Date(dateString);
+      var age = today.getFullYear() - birthDate.getFullYear();
+      var m = today.getMonth() - birthDate.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+          age--;
+      }
+      return age;
+    }
+  },
+  mounted() {
+    this.age = this.getAge("2003-06-14");
+  }
 }
 </script>
 
