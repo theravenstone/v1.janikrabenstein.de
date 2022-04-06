@@ -1,5 +1,6 @@
 <template>
-	<section class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100">
+<div>
+    	<section class="flex items-center h-full p-16 dark:bg-slate-900 dark:text-slate-100">
 		<div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
 			<div class="max-w-md text-center">
 				<h1 class="mb-8 font-extrabold text-9xl dark:text-slate-500">
@@ -43,7 +44,7 @@
 
                     <!-- Chevron -->
                     <i class="fa-solid fa-chevron-right text-slate-500 my-auto pr-2
-                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300"></i>
+                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300 lg:group-hover:translate-x-2"></i>
                 </router-link>
 
                 <!-- Nav Item #2 -->
@@ -72,9 +73,10 @@
 
                     <!-- Chevron -->
 						<i class="fa-solid fa-chevron-right text-slate-500 my-auto pr-2
-                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300"></i>
+                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300 lg:group-hover:translate-x-2"></i>
                 </router-link>
             </div>
         </div>
 	</section>
+</div>
 </template>
