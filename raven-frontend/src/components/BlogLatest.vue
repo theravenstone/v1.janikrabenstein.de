@@ -1,8 +1,8 @@
 <template>
 <section v-if="posts[0]" class="container mx-auto p-6 mb-24">
     <div class="flex flex-col sm:text-center w-full mb-6 sm:mb-12">
-      <h3 class="text-xs text-primary tracking-widest font-medium mb-1">Blog</h3>
-      <h1 class="font-bold text-4xl mb-6">Letzte Blog Beiträge.</h1>
+      <span class="text-xs text-primary tracking-widest font-medium mb-1">Blog</span>
+      <h2 class="font-bold text-4xl mb-6">Letzte Blog Beiträge.</h2>
       <p class="text-md mb-6">Neuigkeiten ob wichtig oder nicht, alles hier an einem Ort.</p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">

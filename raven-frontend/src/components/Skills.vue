@@ -2,8 +2,8 @@
 <section class="container mx-auto p-6 mb-24">
 
     <div class="flex flex-col sm:text-center w-full mb-6 sm:mb-12">
-      <h3 class="text-xs text-primary tracking-widest font-medium mb-1">Coding</h3>
-      <h1 class="font-bold text-4xl mb-5">Meine Skills</h1>
+      <span class="text-xs text-primary tracking-widest font-medium mb-1">Coding</span>
+      <h2 class="font-bold text-4xl mb-5">Meine Skills</h2>
       <p class="text-md">Für manche ist es wie Magie.</p>
     </div>
     <div class="flex flex-wrap">
