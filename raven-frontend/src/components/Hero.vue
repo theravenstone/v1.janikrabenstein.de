@@ -6,10 +6,7 @@
 	  </h1>
     
       <p class="font-mono text-lg mb-6">Webentwickler aus dem Landkreis Bayreuth <span class="animate-wiggle mb-6 inline-block">👋</span></p>
-      
-      <div class="flex justify-center">
-        <Button text="Test text hier " />
-      </div>
+    
     </div>
  
 </section>
