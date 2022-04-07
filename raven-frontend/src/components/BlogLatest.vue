@@ -7,7 +7,7 @@
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">
       <div v-for="post in posts" :key="post.id">
-        <div class="h-full border-2 border-slate-100 dark:border-slate-800 rounded-md overflow-hidden lg:hover:-translate-y-4 transition duration-300">
+        <div class="h-full border-2 border-slate-300 dark:border-slate-800 rounded-md overflow-hidden lg:hover:-translate-y-4 transition duration-300">
           <router-link :to="'/blog/post/' + post.slug">
             <div class="p-6 relative h-full flex flex-col">
               <div class="mb-2 flex justify-between">
