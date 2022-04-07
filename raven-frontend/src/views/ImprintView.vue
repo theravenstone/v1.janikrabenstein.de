@@ -4,21 +4,21 @@
       <p class="mb-3">Angaben gemäß § 5 TMG</p>
       <p class="mb-3">
         Janik Rabenstein <br />
-        <i>Die Adresse ist auf Anfrage per E-Mail erhältlich</i><br />
+        <i>Die Adresse ist auf Anfrage per E-Mail erhältlich.</i><br />
       </p>
       <p class="mb-3">
         <strong>Vertreten durch: </strong><br />
         Janik Rabenstein<br />
       </p>
-      <p class="mb-3">
+      <p class="mb-12">
         <strong>Kontakt:</strong><br />
         Telefon: +49 1522 8627482<br />
         E-Mail:
-        <a href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a><br />
+        <a class="text-primary hover:text-secondary" href="mailto:janik.rabenstein@gmail.com">janik.rabenstein@gmail.com</a><br />
       </p>
       <p class="mb-3">
-        <strong>Haftungsausschluss: </strong><br /><br />
-        <strong>Haftung für Inhalte</strong><br /><br />
+        <h2 class="font-bold text-xl mb-3">Haftungsausschluss: </h2>
+        <h3 class="font-bold text-lg mb-3">Haftung für Inhalte</h3>
         Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die
         Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir
         jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7
@@ -34,7 +34,7 @@
         entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend
         entfernen.<br /><br />
 
-        <strong>Haftung für Links</strong><br /><br />
+        <h3 class="font-bold text-lg mb-3">Haftung für Links</h3>
         Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren
         Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden
         Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten
@@ -46,7 +46,7 @@
         Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden
         von Rechtsverletzungen werden wir derartige Links umgehend entfernen.<br /><br />
 
-        <strong>Urheberrecht</strong><br /><br />
+        <h3 class="font-bold text-lg mb-3">Urheberrecht</h3>
         Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen
         Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
         Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der
@@ -58,8 +58,9 @@
         Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine
         Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
         entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden
-        wir derartige Inhalte umgehend entfernen.<br /><br /><strong
-          >Datenschutz</strong><br /><br />
+        wir derartige Inhalte umgehend entfernen.<br /><br />
+
+        <h3 class="font-bold text-lg mb-3">Datenschutz</h3>
         Die Nutzung unserer Webseite ist in der Regel ohne Angabe
         personenbezogener Daten möglich. Soweit auf unseren Seiten
         personenbezogene Daten (beispielsweise Name, Anschrift oder
@@ -79,8 +80,8 @@
       </p>
       <br />
       Impressum vom
-      <a href="https://www.impressum-generator.de">Impressum Generator</a> der
-      <a href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und Familienrecht</a>
+      <a rel="noopener" target="_blank" class="text-primary hover:text-secondary" href="https://www.impressum-generator.de">Impressum Generator</a> der
+      <a rel="noopener" target="_blank" class="text-primary hover:text-secondary" href="https://www.kanzlei-hasselbach.de/">Kanzlei Hasselbach, Rechtsanwälte für Arbeitsrecht und Familienrecht</a>
     </div>
 </template>
 

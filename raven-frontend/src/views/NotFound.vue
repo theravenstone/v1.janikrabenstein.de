@@ -7,14 +7,14 @@
 					<span class="sr-only">Error</span>404
 				</h1>
 				<p class="text-2xl font-semibold md:text-3xl">Seite Nicht Gefunden</p>
-				<p class="mt-4 mb-8 dark:text-slate-500">Keine sorge, du kannst auf der Startseite neu beginnen.</p>
+				<p class="mt-4 mb-8 text-slate-600 dark:text-slate-400">Keine sorge, du kannst auf der Startseite neu beginnen.</p>
 			</div>
 		</div>
 	</section>
 	<section class="container mx-auto p-6 mb-6">
 		<!-- Continue With -->
         <div class="flex flex-col">
-            <div class="text-slate-500 font-bold uppercase">
+            <div class="text-slate-600 dark:text-slate-400 font-bold uppercase">
                 Versuche dein Glück hier
             </div>
 
@@ -36,15 +36,14 @@
                         </div>
 
                         <div class="font-semibold text-sm md:text-md lg:text-lg
-                            text-slate-500 dark:group-hover:text-slate-600 group-hover:text-slate-400
+                            text-slate-600 dark:text-slate-400 group-hover:text-slate-500
                             transition duration-300">
                             Alles beginnt hier
                         </div>
                     </div>
 
                     <!-- Chevron -->
-                    <i class="fa-solid fa-chevron-right text-slate-500 my-auto pr-2
-                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300 lg:group-hover:translate-x-2"></i>
+                    <i class="fa-solid fa-chevron-right  my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                 </router-link>
 
                 <!-- Nav Item #2 -->
@@ -65,15 +64,14 @@
                         </div>
 
                         <div class="font-semibold text-sm md:text-md lg:text-lg
-                            text-slate-500 dark:group-hover:text-slate-600 group-hover:text-slate-400
+                            text-slate-600 dark:text-slate-400 group-hover:text-slate-500
                             transition duration-300">
                             Lese meine interessanten Beiträge
                         </div>
                     </div>
 
                     <!-- Chevron -->
-						<i class="fa-solid fa-chevron-right text-slate-500 my-auto pr-2
-                        dark:group-hover:text-slate-600 group-hover:text-slate-400 transition duration-300 lg:group-hover:translate-x-2"></i>
+						<i class="fa-solid fa-chevron-right my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                 </router-link>
             </div>
         </div>
