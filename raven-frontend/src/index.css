@@ -32,7 +32,7 @@
   transition: width .3s, height .3s, opacity .3s;
 }
 
-.hover {
+.cursorhover {
   background-color: red!important;
   @apply opacity-50;
 }
