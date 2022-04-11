@@ -9,12 +9,12 @@ module.exports = {
         extend: {
             colors: {
                 primary: '#41b883',
-                secondary: '#205c41',
+                'primary-hover': '#205c41',
             },
             keyframes: {
                 wiggle: {
-                  '0%, 100%': { transform: 'rotate(-3deg)' },
-                  '50%': { transform: 'rotate(3deg)' },
+                    '0%, 100%': { transform: 'rotate(-3deg)' },
+                    '50%': { transform: 'rotate(3deg)' },
                 }
             },
             animation: {

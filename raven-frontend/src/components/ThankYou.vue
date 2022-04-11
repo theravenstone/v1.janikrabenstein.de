@@ -6,7 +6,7 @@
       </div>
       <p class="font-mono">
         Danke an
-        <a rel="noopener" target="_blank" class="text-primary hover:text-secondary transition duration-300"
+        <a rel="noopener" target="_blank" class="text-primary hover:text-primary-hover transition duration-300"
           href="https://github.com/yannirabe">
           Yanni
         </a>
