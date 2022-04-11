@@ -1,5 +1,5 @@
 <template>
-  <section class="p-6 mb-24 bg-slate-800">
+  <section class="p-6 lg:p-12 mb-24 bg-slate-100 dark:bg-slate-800">
     <div class="container mx-auto">
       <div class="flex flex-col sm:text-center w-full">
         <span class="text-xs text-primary tracking-widest font-medium mb-1">Real Life</span>
@@ -25,7 +25,7 @@
               </div>
             </div>
             <div
-              class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-800 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
+              class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-700 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
               <p class="leading-relaxed text-lg">Seit ich vor fast 5 Jahren mit dem Programmieren angefangen habe, habe
                 ich mit vielen Freunden und Bekannten mehrere Projekte umgesetzt. Angefangen damals mit Chat-Bots für <a
                   class="text-primary hover:text-primary-hover transition duration-300" rel="noopener" target="_blank"
