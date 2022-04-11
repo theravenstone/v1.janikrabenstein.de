@@ -43,7 +43,7 @@ export default {
         }
     },
     mounted() {
-        fetch('http://192.168.2.106/janikrabenstein.de.api/get_latest_blog_posts.php')
+        fetch('http://api.localhost:81/get_latest_blog_posts.php')
         .then(res => res.json())
         .then(data => this.posts = data)
         .catch(error => console.log(error.message))
