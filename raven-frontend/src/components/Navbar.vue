@@ -1,6 +1,6 @@
 <template>
 
-  <header class="w-full p-6 md:fixed top-0 bg-white dark:bg-slate-900 shadow transition duration-300">
+  <header class="w-full p-6 md:fixed top-0 bg-white dark:bg-slate-900 shadow transition duration-300 z-50">
     <div class="container mx-auto">
       <div class="flex flex-wrap flex-col md:flex-row items-center">
         <router-link to="/" class="flex title-font font-medium items-center mb-4 md:mb-0">

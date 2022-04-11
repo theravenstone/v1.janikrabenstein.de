@@ -1,14 +1,9 @@
 <template>
-  <section class="p-6 lg:p-12 mb-24 bg-slate-100 dark:bg-slate-800">
+  <section class="p-6 lg:p-12 mb-12 bg-slate-100 dark:bg-slate-800">
     <div class="container mx-auto">
-      <div class="flex flex-col sm:text-center w-full">
-        <span class="text-xs text-primary tracking-widest font-medium mb-1">Real Life</span>
-        <h2 class="font-bold text-4xl mb-5">Über Mich</h2>
-        <p class="text-md">Infos und Fun Facts.</p>
-      </div>
-      <div class="  flex flex-col">
+      <div class="flex flex-col">
         <div class="lg:w-4/6 mx-auto">
-          <div class="flex flex-col sm:flex-row mt-10">
+          <div class="flex flex-col sm:flex-row">
             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-slate-800 text-slate-600">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -26,6 +21,7 @@
             </div>
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-700 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
+              <h2 class="font-bold text-4xl mb-5">Über Mich</h2>
               <p class="leading-relaxed text-lg">Seit ich vor fast 5 Jahren mit dem Programmieren angefangen habe, habe
                 ich mit vielen Freunden und Bekannten mehrere Projekte umgesetzt. Angefangen damals mit Chat-Bots für <a
                   class="text-primary hover:text-primary-hover transition duration-300" rel="noopener" target="_blank"

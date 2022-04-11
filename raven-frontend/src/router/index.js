@@ -12,15 +12,14 @@ const routes = [{
         component: HomeView,
         meta: {
             title: 'Startseite · Janik Rabenstein',
-            metaTags: [
-              {
-                name: 'description',
-                content: 'Hier findest du alles, was du wissen musst.'
-              },
-              {
-                property: 'og:description',
-                content: 'Hier findest du alles, was du wissen musst.'
-              }
+            metaTags: [{
+                    name: 'description',
+                    content: 'Hier findest du alles, was du wissen musst.'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Hier findest du alles, was du wissen musst.'
+                }
             ]
         }
     },
@@ -54,15 +53,14 @@ const routes = [{
         component: NotFound,
         meta: {
             title: '404 Seite Nicht Gefunden · Janik Rabenstein',
-            metaTags: [
-              {
-                name: 'description',
-                content: '404 Seite Nicht Gefunden'
-              },
-              {
-                property: 'og:description',
-                content: 'L404 Seite Nicht Gefunden'
-              }
+            metaTags: [{
+                    name: 'description',
+                    content: '404 Seite Nicht Gefunden'
+                },
+                {
+                    property: 'og:description',
+                    content: 'L404 Seite Nicht Gefunden'
+                }
             ]
         }
     },
@@ -72,15 +70,14 @@ const routes = [{
         component: NotFound,
         meta: {
             title: '404 Seite Nicht Gefunden · Janik Rabenstein',
-            metaTags: [
-              {
-                name: 'description',
-                content: '404 Seite Nicht Gefunden'
-              },
-              {
-                property: 'og:description',
-                content: 'L404 Seite Nicht Gefunden'
-              }
+            metaTags: [{
+                    name: 'description',
+                    content: '404 Seite Nicht Gefunden'
+                },
+                {
+                    property: 'og:description',
+                    content: 'L404 Seite Nicht Gefunden'
+                }
             ]
         }
     },
@@ -90,15 +87,14 @@ const routes = [{
         component: BlogView,
         meta: {
             title: 'Blog · Janik Rabenstein',
-            metaTags: [
-              {
-                name: 'description',
-                content: 'Lies Blog Beiträge von Janik Rabenstein'
-              },
-              {
-                property: 'og:description',
-                content: 'Lies Blog Beiträge von Janik Rabenstein'
-              }
+            metaTags: [{
+                    name: 'description',
+                    content: 'Lies Blog Beiträge von Janik Rabenstein'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Lies Blog Beiträge von Janik Rabenstein'
+                }
             ]
         }
     },
