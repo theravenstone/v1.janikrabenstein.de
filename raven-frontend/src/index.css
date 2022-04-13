@@ -10,15 +10,15 @@
   }
 
 /* Cursor styles start */
-*{
+/* *{
     cursor: none;
-}
+} */
 
 
 .cursor {
   @apply rounded-full border-2 border-slate-300 dark:border-slate-800 transition duration-300 ease-out fixed w-12 h-12;
   
-
+  z-index: 999;
   pointer-events: none;
   left: 0;
   top: 0;
@@ -27,6 +27,7 @@
 
 .cursor2 {
     @apply w-2 h-2 rounded-full bg-primary opacity-50 fixed;
+    z-index: 999;
   transform: translate(-50%, -50%);
   pointer-events: none;
   transition: width .3s, height .3s, opacity .3s;
