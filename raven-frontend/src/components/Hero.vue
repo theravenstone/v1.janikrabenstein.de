@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto p-6 md:h-screen flex">
+  <section class="container mx-auto p-6 lg:h-screen flex">
     <div class="text-center m-auto">
       <h1 class="font-bold text-5xl lg:text-8xl md:text-7xl mb-6">Heyy, ich bin<br />
         <span class="text-primary">Janik Rabenstein</span>
@@ -8,7 +8,7 @@
       <p class="font-mono text-xl mb-6">Webentwickler aus dem Landkreis Bayreuth <span
           class="animate-wiggle mb-6 inline-block">👋</span></p>
     </div>
-    <div class="hidden md:block">
+    <div class="hidden lg:block">
       <i id="triangle" class="fa-brands fa-js-square text-primary absolute w-24 h-24"></i>
       <i id="square" class="fa-brands fa-python text-primary absolute animate-rotate360 -right-24 w-64 h-64"></i>
       <i id="circle" class="fa-brands fa-php text-primary absolute w-24 h-24 bottom-3/4 left-1/3 animate-movecircle"></i>
