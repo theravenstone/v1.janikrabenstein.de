@@ -1,5 +1,4 @@
 <?php
-$host_name = '10.7.1.2';
 $user_name = 'root';
 $password = 'notSecureChangeMe';
 

@@ -14,21 +14,22 @@ http_response_code(401);
 
 
 $stmt = $db->prepare('
-SELECT id, name, slug FROM blog_tags;
+SELECT id, name, description, url FROM projects;
 ');
 
 $stmt->execute();
 
-$tags = [];
+$projects = [];
 foreach ($stmt as $s){
     http_response_code(200);
-    $tag["id"] = $s["id"];
-    $tag["name"] = $s["name"];
-    $tag["slug"] = $s["slug"];
-    $tags[] = $tag;
+    $project["id"] = $s["id"];
+    $project["name"] = $s["name"];
+    $project["description"] = $s["description"];
+    $project["url"] = $s["url"];
+    $projects[] = $project;
     
 }
 
-echo json_encode($tags)
+echo json_encode($projects)
 
 ?>
