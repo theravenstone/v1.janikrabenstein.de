@@ -63,7 +63,7 @@
     <div class="mt-6 text-center text-sm text-slate-600 dark:text-slate-400"><i
         class="fa-solid fa-award text-yellow-300 ml-3"></i> = In diesem Projekt verwendet.</div>
 
-    </section>
+  </section>
 </template>
 
 

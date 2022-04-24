@@ -13,13 +13,25 @@ const routes = [{
         meta: {
             title: 'Startseite · Janik Rabenstein',
             metaTags: [{
+                    property: 'og:title',
+                    content: 'Startseite · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Startseite · Janik Rabenstein'
+                },
+                {
                     name: 'description',
                     content: 'Hier findest du alles, was du wissen musst.'
                 },
                 {
                     property: 'og:description',
                     content: 'Hier findest du alles, was du wissen musst.'
-                }
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Hier findest du alles, was du wissen musst.'
+                },
             ]
         }
     },
@@ -28,7 +40,28 @@ const routes = [{
         name: 'Impressum',
         component: ImprintView,
         meta: {
-            title: 'Impressum · Janik Rabenstein'
+            title: 'Impressum · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Impressum · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Impressum · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Angaben gemäß § 5 TMG'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Angaben gemäß § 5 TMG'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Angaben gemäß § 5 TMG'
+                },
+            ]
         }
     },
     {
@@ -40,7 +73,28 @@ const routes = [{
         name: 'Datenschutz',
         component: PrivacyView,
         meta: {
-            title: 'Datenschutz · Janik Rabenstein'
+            title: 'Datenschutz · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Datenschutz · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Datenschutz · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Datenschutz'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Datenschutz'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Datenschutz'
+                },
+            ]
         }
     },
     {
@@ -54,13 +108,25 @@ const routes = [{
         meta: {
             title: '404 Seite Nicht Gefunden · Janik Rabenstein',
             metaTags: [{
+                    property: 'og:title',
+                    content: '404 Seite Nicht Gefunden · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: '404 Seite Nicht Gefunden · Janik Rabenstein'
+                },
+                {
                     name: 'description',
-                    content: '404 Seite Nicht Gefunden'
+                    content: 'Leider wurde diese Seite nicht gefunden.'
                 },
                 {
                     property: 'og:description',
-                    content: 'L404 Seite Nicht Gefunden'
-                }
+                    content: 'Leider wurde diese Seite nicht gefunden.'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Leider wurde diese Seite nicht gefunden.'
+                },
             ]
         }
     },
@@ -71,13 +137,25 @@ const routes = [{
         meta: {
             title: '404 Seite Nicht Gefunden · Janik Rabenstein',
             metaTags: [{
+                    property: 'og:title',
+                    content: '404 Seite Nicht Gefunden · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: '404 Seite Nicht Gefunden · Janik Rabenstein'
+                },
+                {
                     name: 'description',
-                    content: '404 Seite Nicht Gefunden'
+                    content: 'Leider wurde diese Seite nicht gefunden.'
                 },
                 {
                     property: 'og:description',
-                    content: 'L404 Seite Nicht Gefunden'
-                }
+                    content: 'Leider wurde diese Seite nicht gefunden.'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Leider wurde diese Seite nicht gefunden.'
+                },
             ]
         }
     },
@@ -88,13 +166,25 @@ const routes = [{
         meta: {
             title: 'Blog · Janik Rabenstein',
             metaTags: [{
+                    property: 'og:title',
+                    content: 'Blog · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Blog · Janik Rabenstein'
+                },
+                {
                     name: 'description',
-                    content: 'Lies Blog Beiträge von Janik Rabenstein'
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
                 },
                 {
                     property: 'og:description',
-                    content: 'Lies Blog Beiträge von Janik Rabenstein'
-                }
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
+                },
             ]
         }
     },
