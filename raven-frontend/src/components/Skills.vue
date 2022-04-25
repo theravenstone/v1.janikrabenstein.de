@@ -57,6 +57,7 @@
               class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>XAMPP<i
               class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+          <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Netlify</li>
         </ul>
       </div>
     </div>

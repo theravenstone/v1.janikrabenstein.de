@@ -20,14 +20,10 @@
                                     {{ project.description }}
                                 </p>
                                 
-                                <div class="mb-3">
-                                    <span class="tracking-widest text-xs title-font font-medium bg-primary px-3 py-1 mr-2 rounded-md">
-                                       React
+                                <div class="mb-3" v-if="project.tags">
+                                    <span  v-for="tag in project.tags" :key="tag.id" class="tracking-widest text-xs title-font font-medium bg-primary px-3 py-1 mr-2 rounded-md">
+                                       {{ tag.name }}
                                     </span>
-                                    <span class="tracking-widest text-xs title-font font-medium bg-primary px-3 py-1 mr-2 rounded-md">
-                                       Bootstrap
-                                    </span>
-
                                 </div>
                                 <a v-if="project.url" :href="project.url" rel="noopener noreferrer" target="_blank" class="mb-3"><i class="fa-solid fa-link mr-3"></i>{{ project.url }}</a>
                                 
@@ -52,6 +48,8 @@ data() {
       .then(res => res.json())
       .then(data => this.projects = data)
       .catch(error => console.log(error.message))
+    
+    console.log(this.projects)
   },
   methods: {
     isEven(n) {
