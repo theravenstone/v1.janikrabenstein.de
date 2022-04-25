@@ -196,7 +196,7 @@ const routes = [{
     {
         path: '/blog/post',
         redirect: '/blog'
-    }
+    },
 ]
 
 const router = createRouter({

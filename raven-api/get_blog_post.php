@@ -31,8 +31,8 @@ foreach ($stmt as $s) {
 
 
 $stmt2 = $db->prepare('
-SELECT blog_tags.id, blog_tags.name, blog_tags.slug FROM blog_tags
-INNER JOIN blog_post_has_tags ON blog_tags.id = blog_post_has_tags.tag_id
+SELECT tags.id, tags.name, tags.slug FROM tags
+INNER JOIN blog_post_has_tags ON tags.id = blog_post_has_tags.tag_id
 WHERE blog_post_has_tags.post_id = :id;
 ');
 

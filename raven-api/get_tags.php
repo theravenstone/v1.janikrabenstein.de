@@ -14,7 +14,7 @@ http_response_code(401);
 
 
 $stmt = $db->prepare('
-SELECT id, name, slug FROM blog_tags;
+SELECT id, name, slug FROM tags;
 ');
 
 $stmt->execute();
