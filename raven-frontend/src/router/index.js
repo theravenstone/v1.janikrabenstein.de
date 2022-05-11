@@ -5,6 +5,7 @@ import ImprintView from '../views/ImprintView.vue'
 import PrivacyView from '../views/PrivacyView.vue'
 import BlogView from '../views/BlogView.vue'
 import BlogPostView from '../views/BlogPostView.vue'
+import TicTacToe from '../views/TicTacToe.vue'
 
 const routes = [{
         path: '/',
@@ -197,6 +198,11 @@ const routes = [{
         path: '/blog/post',
         redirect: '/blog'
     },
+    {
+        path: '/games/tictactoe',
+        name: 'Tic Tac Toe',
+        component: TicTacToe
+    }
 ]
 
 const router = createRouter({
