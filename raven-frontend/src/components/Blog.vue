@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto p-6 mb-6">
+  <section class="container mx-auto p-6 mb-6 mt-24">
     <h1 class="font-bold text-5xl mb-12">Blog.</h1>
     <div v-if="posts[0]" class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-4">
       <div v-for="post in posts" :key="post.id">

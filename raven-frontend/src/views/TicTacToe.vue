@@ -1,5 +1,5 @@
 <template>
-    <section class="pt-32 text-center">
+    <section class="container mx-auto p-6 mb-6 mt-24 text-center">
         <h1 class="mb-12 text-3xl font-bold uppercase">Tic Tac Toe</h1>
 
         <span class="text-xl mb-3">Spieler {{ player }} ist dran!</span>
@@ -15,7 +15,7 @@
         </div>
 
         <div class="text-center mb-6">
-            <span v-if="winner" class="text-6xl font-bold mb-8">Spieler '{{ winner }}' gewinnt!</span>
+            <span v-if="winner" class="text-6xl font-bold mb-8 block">Spieler '{{ winner }}' gewinnt!</span>
             <button @click="ResetGame"
                 class="px-4 py-2 bg-primary rounded uppercase font-bold hover:bg-primary-hover duration-300">Zurücksetzen</button>
         </div>
