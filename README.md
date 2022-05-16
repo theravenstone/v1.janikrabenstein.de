@@ -1,6 +1,1 @@
 # janikrabenstein.de
-
-## Erreichbarkeit
-`localhost` - frontend  
-`api.localhost:81` - api  
-`api.localhost:8080` - phpmyadmin
