@@ -41,7 +41,7 @@
         <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Backend Frameworks</h2>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Processwire</li>
-          <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Wordpress</li>
+          <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>WordPress</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Flask</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Laravel</li>
         </ul>
