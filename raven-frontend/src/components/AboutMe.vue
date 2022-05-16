@@ -25,7 +25,7 @@
               <p class="leading-relaxed text-lg mb-3">Ich habe mit ungefähr 14 Jahren das programmieren angefangen. Damals waren es noch Chat-Bots für <a
                   class="text-primary hover:text-primary-hover transition duration-300" rel="noopener" target="_blank"
                   href="https://discord.com">Discord</a>, später habe ich eine Richtung in die Web-Entwicklung
-                eingeschlagen und hier auch sehr viel erfahrung Sammeln können. Angetrieben von Kaffee bin ich immer daran
+                eingeschlagen und hier auch sehr viel Erfahrung gesammelt. Angetrieben von Kaffee bin ich immer daran
                 interessiert neue und bessere technische Möglichkeiten kennenzulernen und damit zu arbeiten. </p>
                 <p class="leading-relaxed text-lg"><b>Fun-Fact:</b> Diese Website ist mit <a rel="noopener noreferrer" target="_blank" href="https://vuejs.org" class="text-primary hover:text-primary-hover transition duration-300">Vue.js 3</a> und <a rel="noopener noreferrer" target="_blank" href="https://tailwindcss.com" class="text-primary hover:text-primary-hover transition duration-300">Tailwindcss</a> gebaut. Diese beiden Frameworks habe ich in diesem Projekt das erste mal verwendet.</p>
             </div>
