@@ -7,7 +7,7 @@
                         <img src="@/assets/logo.png" alt="" width="50" height="50">
                         <span class="self-center text-2xl font-bold">Janik Rabenstein</span>
                     </router-link>
-                    <p class="text-center md:max-w-sm md:text-left font-mono">Webentwickler aus dem Landkreis Bayreuth
+                    <p class="text-center md:max-w-sm md:text-left font-mono">Entwickler aus dem Landkreis Bayreuth
                         <span class="animate-wiggle mb-6 inline-block">👋</span></p>
                 </div>
                 <div class="flex flex-wrap justify-center lg:space-x-8">

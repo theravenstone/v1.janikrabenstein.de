@@ -5,7 +5,7 @@
         <span class="text-primary">Janik Rabenstein</span>
       </h1>
 
-      <p class="font-mono text-xl mb-6">Webentwickler aus dem Landkreis Bayreuth <span
+      <p class="font-mono text-xl mb-6">Entwickler aus dem Landkreis Bayreuth <span
           class="animate-wiggle mb-6 inline-block">👋</span></p>
     </div>
     <div class="hidden lg:block">
