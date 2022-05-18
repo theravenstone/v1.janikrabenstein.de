@@ -1,6 +1,6 @@
 <?php
 $user_name = 'root';
-$password = 'notSecureChangeMe';
+$password = '4Fc$654%AZV%&VZP6';
 
 $db = new PDO("mysql:host=10.7.1.2", $user_name, $password);
 $db->exec('use janikrabenstein_de');
