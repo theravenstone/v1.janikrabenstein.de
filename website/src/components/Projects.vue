@@ -102,68 +102,9 @@ export default {
                         },
                     ]
                 },
+        
                 {
                     id: 4,
-                    name: "Opera",
-                    description: "Luxuriöse Bademode by OPERA® in einzigartiger Qualität. An diesem Projekt habe ich während meiner Ausbildung gearbeitet.",
-                    url: "https://myopera.info",
-                    tags: [
-                        {
-                            id: 1,
-                            name: "Bootstrap",
-                        },
-                    ]
-                },
-                {
-                    id: 5,
-                    name: "André Hagen",
-                    description: "André Hagen – Der Optiker | Für mehr Spaß an der Brille! An diesem Projekt habe ich während meiner Ausbildung gearbeitet.",
-                    url: "https://optiker-bayreuth.de",
-                    tags: [
-                        {
-                            id: 1,
-                            name: "WordPress",
-                        },
-                        {
-                            id: 2,
-                            name: "Bootstrap",
-                        },
-                    ]
-                },
-                {
-                    id: 6,
-                    name: "Colorworks Bayreuth",
-                    description: "Lackdoktor & Smart-Repair Spezialist – Colorworks Bayreuth. An diesem Projekt habe ich während meiner Ausbildung gearbeitet.",
-                    url: "https://www.colorworks-bayreuth.de",
-                    tags: [
-                        {
-                            id: 1,
-                            name: "Processwire",
-                        },
-                        {
-                            id: 2,
-                            name: "UIkit",
-                        },
-                    ]
-                },
-                {
-                    id: 7,
-                    name: "Fliesenhaus Christ",
-                    description: "Fliesenhaus Christ | Ihr Spezialist für Fliesen und Natursteine. An diesem Projekt habe ich während meiner Ausbildung gearbeitet.",
-                    url: "https://fliesenhaus-christ.de",
-                    tags: [
-                        {
-                            id: 1,
-                            name: "Processwire",
-                        },
-                        {
-                            id: 2,
-                            name: "UIkit",
-                        },
-                    ]
-                },
-                {
-                    id: 8,
                     name: "Social Media Event App (SMEA)",
                     description: "Mit SMEA kannst du Events erstellen und daran teil nehmen. Siehe was deine Freunde machen oder verabrede dich spontan zum Pizzaessen.",
                     url: "",
@@ -182,7 +123,7 @@ export default {
         }
     },
     mounted() {
-        fetch('http://api.localhost:81/get_projects.php')
+        fetch('https://api.janikrabenstein.de/get_projects.php')
             .then(res => res.json())
             .then(data => this.projects = data)
             .catch(error => console.log(error.message))

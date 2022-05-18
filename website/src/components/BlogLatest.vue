@@ -48,7 +48,7 @@ export default {
     }
   },
   mounted() {
-    fetch('http://api.localhost:81/get_latest_blog_posts.php')
+    fetch('https://api.janikrabenstein.de/get_latest_blog_posts.php')
       .then(res => res.json())
       .then(data => this.posts = data)
       .catch(error => console.log(error.message))
