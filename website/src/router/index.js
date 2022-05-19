@@ -167,7 +167,31 @@ const routes = [{
     {
         path: '/games/tictactoe',
         name: 'Tic Tac Toe',
-        component: TicTacToe
+        component: TicTacToe,
+        meta: {
+            title: 'Tic Tac Toe · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Tic Tac Toe · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Tic Tac Toe · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Spiele Tic Tac Toe'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Spiele Tic Tac Toe'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Spiele Tic Tac Toe'
+                },
+            ]
+        }
     }
 ]
 
