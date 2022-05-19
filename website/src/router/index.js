@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import NotFound from '../views/NotFound.vue'
 import ImprintView from '../views/ImprintView.vue'
-import PrivacyView from '../views/PrivacyView.vue'
 import BlogView from '../views/BlogView.vue'
 import BlogPostView from '../views/BlogPostView.vue'
 import TicTacToe from '../views/TicTacToe.vue'
@@ -68,39 +67,6 @@ const routes = [{
     {
         path: '/imprint',
         redirect: '/impressum'
-    },
-    {
-        path: '/datenschutz',
-        name: 'Datenschutz',
-        component: PrivacyView,
-        meta: {
-            title: 'Datenschutz · Janik Rabenstein',
-            metaTags: [{
-                    property: 'og:title',
-                    content: 'Datenschutz · Janik Rabenstein'
-                },
-                {
-                    property: 'twitter:title',
-                    content: 'Datenschutz · Janik Rabenstein'
-                },
-                {
-                    name: 'description',
-                    content: 'Datenschutz'
-                },
-                {
-                    property: 'og:description',
-                    content: 'Datenschutz'
-                },
-                {
-                    property: 'twitter:description',
-                    content: 'Datenschutz'
-                },
-            ]
-        }
-    },
-    {
-        path: '/privacy',
-        redirect: '/datenschutz'
     },
     {
         path: '/404',
