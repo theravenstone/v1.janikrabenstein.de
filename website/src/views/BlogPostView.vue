@@ -35,12 +35,12 @@ export default {
         }
     },
     created() {
-        fetch('https://api.janikrabenstein.de/get_blog_post.php?slug=' + this.$route.params.slug )
+        fetch('https://janikrabenstein.de/api/get_blog_post.php?slug=' + this.$route.params.slug )
         .then(res => res.json())
         .then(data => this.post = data)
         .catch(error => console.log(error.message))
 
-        fetch('https://api.janikrabenstein.de/get_tags.php')
+        fetch('https://janikrabenstein.de/api/get_tags.php')
         .then(res => res.json())
         .then(data => this.tags = data)
         .catch(error => console.log(error.message))
