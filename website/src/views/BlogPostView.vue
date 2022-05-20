@@ -1,5 +1,5 @@
 <template>
-    <section class="container mx-auto p-6">
+    <section class="container mx-auto p-6 mt-24">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div class="col-span-2">
                 <h1 class="font-bold text-5xl mb-6">{{ post.title }}</h1>
@@ -35,12 +35,12 @@ export default {
         }
     },
     created() {
-        fetch('https://janikrabenstein.de/api/get_blog_post.php?slug=' + this.$route.params.slug )
+        fetch('/api/get_blog_post.php?slug=' + this.$route.params.slug )
         .then(res => res.json())
         .then(data => this.post = data)
         .catch(error => console.log(error.message))
 
-        fetch('https://janikrabenstein.de/api/get_tags.php')
+        fetch('/api/get_tags.php')
         .then(res => res.json())
         .then(data => this.tags = data)
         .catch(error => console.log(error.message))

@@ -53,7 +53,7 @@ export default {
     };
   },
   mounted() {
-    fetch("https://janikrabenstein.de/api/get_blog_posts.php")
+    fetch("/api/get_blog_posts.php")
       .then((res) => res.json())
       .then((data) => (this.posts = data))
       .catch((error) => console.log(error.message));

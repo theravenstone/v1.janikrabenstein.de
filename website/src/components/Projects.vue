@@ -127,7 +127,7 @@ export default {
         }
     },
     mounted() {
-        fetch('https://janikrabenstein.de/api/get_projects.php')
+        fetch('/api/get_projects.php')
             .then(res => res.json())
             .then(data => this.projects = data)
             .catch(error => console.log(error.message))
