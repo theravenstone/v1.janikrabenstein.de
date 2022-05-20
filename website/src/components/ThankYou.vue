@@ -7,11 +7,8 @@
       <p class="font-mono">
         Danke an
         <a rel="noopener" target="_blank" class="text-primary hover:text-primary-hover transition duration-300"
-          href="https://github.com/yannirabe">
-          Yanni
-        </a>
-        der mich vor vielen Jahren dazu gebracht hat mit dem Programmieren
-        anzufangen und Danke an alle die mich auf diesem Weg begleitet haben.
+          href="https://github.com/yannirabe">Yanni</a>, durch den ich meine Leidenschaft zum Programmieren entdeckt habe.<br>
+        Danke an alle, die mich auf diesem Weg, begleiten.
       </p>
     </div>
   </section>

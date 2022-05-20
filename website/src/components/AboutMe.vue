@@ -22,18 +22,24 @@
             <div
               class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l-2 border-slate-300 dark:border-slate-700 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left transition duration-300">
               <h2 class="font-bold text-4xl mb-5">Über Mich</h2>
-              <p class="leading-relaxed text-lg mb-3">Ich habe mit ungefähr 14 Jahren das programmieren angefangen. Damals waren es noch Chat-Bots für <a
-                  class="text-primary hover:text-primary-hover transition duration-300" rel="noopener" target="_blank"
-                  href="https://discord.com">Discord</a>, später habe ich eine Richtung in die Web-Entwicklung
-                eingeschlagen und hier auch sehr viel Erfahrung gesammelt. Angetrieben von Kaffee bin ich immer daran
-                interessiert neue und bessere technische Möglichkeiten kennenzulernen und damit zu arbeiten. </p>
-                <p class="leading-relaxed text-lg"><b>Fun-Fact:</b> Diese Website ist mit <a rel="noopener noreferrer" target="_blank" href="https://vuejs.org" class="text-primary hover:text-primary-hover transition duration-300">Vue.js 3</a> und <a rel="noopener noreferrer" target="_blank" href="https://tailwindcss.com" class="text-primary hover:text-primary-hover transition duration-300">Tailwindcss</a> gebaut. Diese beiden Frameworks habe ich in diesem Projekt das erste mal verwendet.</p>
+              <p class="leading-relaxed text-lg mb-3">Ich habe mit 14 Jahren das Programmieren angefangen. Damals waren
+                es noch Chat-Bots für <a class="text-primary hover:text-primary-hover transition duration-300"
+                  rel="noopener" target="_blank" href="https://discord.com">Discord</a>, später habe ich eine Richtung
+                in die Web-Entwicklung
+                eingeschlagen und hier auch sehr viel Erfahrung gesammelt. Angetrieben von Kaffee, bin ich immer daran
+                interessiert, neue und bessere technische Möglichkeiten kennenzulernen und damit zu arbeiten. </p>
+              <p class="leading-relaxed text-lg"><b>Fun-Fact:</b> Diese Website ist mit <a rel="noopener noreferrer"
+                  target="_blank" href="https://vuejs.org"
+                  class="text-primary hover:text-primary-hover transition duration-300">Vue.js 3</a> und <a
+                  rel="noopener noreferrer" target="_blank" href="https://tailwindcss.com"
+                  class="text-primary hover:text-primary-hover transition duration-300">Tailwindcss</a> gebaut. Diese
+                beiden Frameworks habe ich in diesem Projekt das erste Mal verwendet.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </section>
+  </section>
 </template>
 
 <script>

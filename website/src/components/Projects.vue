@@ -43,7 +43,7 @@ export default {
                 {
                     id: 1,
                     name: "Vulpo",
-                    description: "Diese Website habe ich für einen guten Freund von mir gebaut der einen Discord Bot entwickelt. Der Bot sowie seine Funktionen sollen auf dieser Website präsentiert werden.",
+                    description: "Diese Website habe ich für einen guten Freund von mir gebaut, der einen Discord-Bot entwickelt. Der Bot, sowie seine Funktionen, sollen auf dieser Website präsentiert werden.",
                     url: "https://vulpo.netlify.app",
                     image: "vulpo.png",
                     tags: [
@@ -60,7 +60,7 @@ export default {
                 {
                     id: 2,
                     name: "RAVEN'S REVENGE",
-                    description: "Eine Website mit Anbindung an die Clash of Clans API. Die Website wird dazu verwendet Statistiken über den Clan und seine Spieler anzuzeigen.",
+                    description: "Eine Website mit Anbindung an die Clash of Clans API. Die Website wird dazu verwendet, Statistiken über den Clan und seine Spieler anzuzeigen.",
                     url: "https://ravensrevenge.netlify.app",
                     image: "ravensrevenge.png",
                     tags: [
@@ -85,7 +85,7 @@ export default {
                 {
                     id: 3,
                     name: "RAVEN Discord Bot",
-                    description: "RAVEN ist ein Discord Bot geschrieben in Python.",
+                    description: "RAVEN ist ein Discord-Bot programmiert mit Python.",
                     url: "https://raven-bot.xyz",
                     tags: [
                         {
@@ -106,7 +106,7 @@ export default {
                 {
                     id: 4,
                     name: "Social Media Event App (SMEA)",
-                    description: "Mit SMEA kannst du Events erstellen und daran teil nehmen. Siehe was deine Freunde machen oder verabrede dich spontan zum Pizzaessen.",
+                    description: "Mit SMEA kannst du Events erstellen und daran teil nehmen. Sieh was deine Freunde machen oder verabrede dich spontan zum Pizzaessen.",
                     url: "",
                     tags: [
                         {
@@ -116,6 +116,10 @@ export default {
                         {
                             id: 2,
                             name: "Bootstrap",
+                        },
+                        {
+                            id: 3,
+                            name: "PHP",
                         },
                     ]
                 },

@@ -13,13 +13,13 @@
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Python</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>JavaScript<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>PHP<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>HTML<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>CSS<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
         </ul>
 
       </div>
@@ -28,10 +28,10 @@
         <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Frontend Frameworks</h2>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Vue.js<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>React</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Tailwindcss<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Bootstrap</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>UIkit</li>
         </ul>
@@ -51,18 +51,18 @@
         <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Software</h2>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Visual Studio Code<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>PyCharm | PHPStorm</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>GitHub<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>XAMPP<i
-              class="fa-solid fa-award text-yellow-300 ml-3"></i></li>
+              class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Netlify</li>
         </ul>
       </div>
     </div>
     <div class="mt-6 text-center text-sm text-slate-600 dark:text-slate-400"><i
-        class="fa-solid fa-award text-yellow-300 ml-3"></i> = In diesem Projekt verwendet.</div>
+        class="fa-solid fa-stars text-yellow-300 ml-3"></i> = In diesem Projekt verwendet.</div>
 
   </section>
 </template>

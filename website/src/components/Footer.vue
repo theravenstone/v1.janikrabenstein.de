@@ -44,7 +44,7 @@
                 </div>
             </div>
             <div class="flex flex-col-reverse items-center justify-between py-5 text-center sm:flex-row">
-                <p class="mt-3 text-sm sm:mt-0"> ©2022 All rights reserved </p>
+                <p class="mt-3 text-sm sm:mt-0"> © 2021 - {{ currentYear }} Alle Rechte vorbehalten </p>
                 <div class="flex space-x-2">
                     <a rel="noopener noreferrer" href="mailto:janik.rabenstein@gmail.com" title="Email"
                         class="flex items-center justify-center w-10 h-10 rounded-full bg-primary hover:bg-primary-hover text-white transition duration-300">
@@ -67,7 +67,11 @@
 
 <script>
 export default {
-
+  data(){
+    return{
+      currentYear: new Date().getFullYear(),
+    }
+  }
 }
 </script>
 
