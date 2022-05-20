@@ -35,10 +35,6 @@
                                 <router-link to="/impressum" class="hover:text-primary transition duration-300">
                                     Impressum</router-link>
                             </li>
-                            <li>
-                                <router-link to="/datenschutz" class="hover:text-primary transition duration-300">
-                                    Datenschutz</router-link>
-                            </li>
                         </ul>
                     </div>
                 </div>
