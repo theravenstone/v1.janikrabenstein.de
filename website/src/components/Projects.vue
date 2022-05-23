@@ -9,8 +9,7 @@
 
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="mb-10 lg:mb-0 rounded-lg overflow-hidden" :class="isEven(project.id) ? 'md:order-last' : ''">
-                    <img v-if="project.image" :alt="project.name + ' Mockup'" class="object-cover object-center h-full w-full" :src="'/projects/' + project.image">
-                    <img v-else :alt="project.name + ' Mockup'" class="object-cover object-center h-full w-full" src="https://dummyimage.com/600x450/000/fff">
+                    <img :alt="project.name" class="object-cover object-center h-full w-full" :src="project.image">
                 
                 </div>
                 <div class="p-6 flex">

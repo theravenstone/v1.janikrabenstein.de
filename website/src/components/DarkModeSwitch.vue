@@ -1,13 +1,11 @@
 <template>
-    <button v-if="darkMode" type="button" aria-label="use light mode"
-        class="text-sm flex hover:bg-slate-100 dark:hover:bg-slate-800 p-3 rounded-md transition duration-300"
-        @click="setLightMode">
-        <i class="fa-solid fa-sun"></i>
+    <button v-if="darkMode" type="button" aria-label="use light mode" class="flex items-center p-4 hover:bg-primary hover:text-white w-full" @click="setLightMode">
+        <i class="fa-solid fa-sun mr-2"></i>
+        <span>Light mode</span>
     </button>
-    <button v-else type="button" aria-label="use dark mode"
-        class="flex text-sm hover:bg-slate-100 dark:hover:bg-slate-800 p-3 rounded-md transition duration-300"
-        @click="setDarkMode">
-        <i class="fa-solid fa-moon"></i>
+    <button v-else type="button" aria-label="use dark mode" class="flex items-center p-4 hover:bg-primary hover:text-white w-full" @click="setDarkMode">
+        <i class="fa-solid fa-moon mr-2"></i>
+        <span>Dark mode</span>
         </button>   
 </template>
 

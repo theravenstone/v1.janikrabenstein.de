@@ -45,8 +45,7 @@
                         </div>
 
                         <!-- Chevron -->
-                        <i
-                            class="fa-solid fa-chevron-right  my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right  my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                     </router-link>
 
                     <!-- Nav Item #2 -->
@@ -57,7 +56,7 @@
                         <!-- Nav Icon -->
                         <div
                             class="rounded-xl border-2 border-slate-300 dark:border-slate-800 px-3 py-2 md:py-4 transition duration-300">
-                            <i class="fa-solid fa-book mx-auto 
+                            <i class="fa-solid fa-books mx-auto 
                             text-primary text-2xl md:text-3xl"></i>
                         </div>
 
@@ -75,8 +74,7 @@
                         </div>
 
                         <!-- Chevron -->
-                        <i
-                            class="fa-solid fa-chevron-right my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
+                        <i class="fa-solid fa-chevron-right my-auto pr-2 text-slate-600 dark:text-slate-400 group-hover:text-slate-500 transition duration-300 lg:group-hover:translate-x-2"></i>
                     </router-link>
                 </div>
             </div>
