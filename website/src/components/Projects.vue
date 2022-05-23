@@ -10,7 +10,6 @@
             <div class="grid md:grid-cols-2 gap-4">
                 <div class="mb-10 lg:mb-0 rounded-lg overflow-hidden" :class="isEven(project.id) ? 'md:order-last' : ''">
                     <img :alt="project.name" class="object-cover object-center h-full w-full" :src="project.image">
-                
                 </div>
                 <div class="p-6 flex">
                     <div class=" self-center">
