@@ -4,7 +4,7 @@
             <div class="pt-12 space-y-8 md:flex md:justify-between md:space-y-0">
                 <div class="flex flex-col my-6 space-y-6 md:m-0">
                     <router-link to="/" class="flex justify-center space-x-3 md:justify-start">
-                        <img src="@/assets/logo.png" alt="" width="50" height="50">
+                        <img src="@/assets/logo.png" alt="Janik Rabenstein Logo" width="50" height="50">
                         <span class="self-center text-2xl font-bold">Janik Rabenstein</span>
                     </router-link>
                     <p class="text-center md:max-w-sm md:text-left font-mono">Entwickler aus dem Landkreis Bayreuth

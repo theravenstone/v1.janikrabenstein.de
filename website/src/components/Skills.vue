@@ -9,7 +9,7 @@
     <div class="flex flex-wrap">
       <div
         class="lg:w-1/4 sm:w-1/2 w-full px-8 py-6 border-l-2 border-slate-300 dark:border-slate-800 transition duration-300">
-        <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Programmiersprachen</h2>
+        <h3 class="text-lg sm:text-xl font-medium title-font mb-2">Programmiersprachen</h3>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Python</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>JavaScript<i
@@ -25,7 +25,7 @@
       </div>
       <div
         class="lg:w-1/4 sm:w-1/2 w-full px-8 py-6 border-l-2 border-slate-300 dark:border-slate-800 transition duration-300">
-        <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Frontend Frameworks</h2>
+        <h3 class="text-lg sm:text-xl font-medium title-font mb-2">Frontend Frameworks</h3>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Vue.js<i
               class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
@@ -38,7 +38,7 @@
       </div>
       <div
         class="lg:w-1/4 sm:w-1/2 w-full px-8 py-6 border-l-2 border-slate-300 dark:border-slate-800 transition duration-300">
-        <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Backend Frameworks</h2>
+        <h3 class="text-lg sm:text-xl font-medium title-font mb-2">Backend Frameworks</h3>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Processwire</li>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>WordPress</li>
@@ -48,7 +48,7 @@
       </div>
       <div
         class="lg:w-1/4 sm:w-1/2 w-full px-8 py-6 border-l-2 border-slate-300 dark:border-slate-800 transition duration-300">
-        <h2 class="text-lg sm:text-xl font-medium title-font mb-2">Software</h2>
+        <h3 class="text-lg sm:text-xl font-medium title-font mb-2">Software</h3>
         <ul>
           <li><i class="fa-solid fa-chevron-right text-primary mr-4"></i>Visual Studio Code<i
               class="fa-solid fa-stars text-yellow-300 ml-3"></i></li>
