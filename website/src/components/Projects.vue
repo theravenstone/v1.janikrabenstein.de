@@ -13,7 +13,7 @@
                 </div>
                 <div class="p-6 flex">
                     <div class=" self-center">
-                        <h2 class="text-primary text-2xl title-font font-medium mb-3">{{ project.name }}</h2>
+                        <h3 class="text-primary text-2xl title-font font-medium mb-3">{{ project.name }}</h3>
                         <p class="leading-relaxed text-base mb-3">
                             {{ project.description }}
                         </p>

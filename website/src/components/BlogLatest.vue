@@ -20,7 +20,7 @@
                       tag.name
                     }}</span></div>
               </div>
-              <h1 class="title-font text-xl font-medium mb-3">{{ post.title }}</h1>
+              <h3 class="title-font text-xl font-medium mb-3">{{ post.title }}</h3>
               <p class="leading-relaxed mb-3">{{ post.teaser }}</p>
               <div class="flex items-center flex-wrap mt-auto">
                 <span
