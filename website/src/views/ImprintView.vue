@@ -4,7 +4,8 @@
     <p class="mb-3">Angaben gemäß § 5 TMG</p>
     <p class="mb-3">
       Janik Rabenstein <br />
-      <i>Die Adresse ist auf Anfrage per E-Mail erhältlich.</i><br />
+      Boxsteig 49<br/>
+      95485 Warmensteinach
     </p>
     <p class="mb-3">
       <strong>Vertreten durch: </strong><br />
