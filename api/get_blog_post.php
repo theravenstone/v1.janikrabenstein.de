@@ -1,16 +1,17 @@
 <?php
 $username = 'root';
 $password = '4Fc$654%AZV%&VZP6';
+$database = 'janikrabenstein_de';
 
 $db = new PDO("mysql:host=10.7.1.2", $username, $password);
-$db->exec('use janikrabenstein_de');
+$db->exec('use '. $database);
 
 $myparams = file_get_contents('php://input');
 
 $myparams = json_decode($myparams, true);
 
 
-http_response_code(401);
+http_response_code(200);
 
 $stmt = $db->prepare('
 SELECT id, title, teaser, content, date, slug FROM blog_posts WHERE slug = :slug LIMIT 1;
@@ -19,8 +20,6 @@ SELECT id, title, teaser, content, date, slug FROM blog_posts WHERE slug = :slug
 
 $stmt->execute(['slug' => $_GET['slug']]);
 foreach ($stmt as $s) {
-	  
-		http_response_code(200);
 		$data["id"] = $s["id"];
 		$data["title"] = $s["title"];
 		$data["teaser"] = $s["teaser"];
