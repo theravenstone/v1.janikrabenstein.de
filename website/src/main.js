@@ -47,6 +47,8 @@ router.beforeEach((to, from, next) => {
         .forEach(tag => document.head.appendChild(tag));
 
     next();
+
+    window.scrollTo(0, 0)
 });
 
 createApp(App).use(router).mount('#app')

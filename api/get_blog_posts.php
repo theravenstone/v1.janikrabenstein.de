@@ -1,8 +1,8 @@
 <?php
-$user_name = 'root';
+$username = 'root';
 $password = '4Fc$654%AZV%&VZP6';
 
-$db = new PDO("mysql:host=10.7.1.2", $user_name, $password);
+$db = new PDO("mysql:host=10.7.1.2", $username, $password);
 $db->exec('use janikrabenstein_de');
 
 $myparams = file_get_contents('php://input');
