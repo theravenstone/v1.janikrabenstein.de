@@ -11,10 +11,16 @@
       <nav id="menu"
         class="hidden md:ml-4 md:py-1 md:pl-4 md:border-l-2 md:border-slate-300 md:dark:border-slate-800 md:flex flex-wrap items-center text-base justify-center">
         <router-link to="/" class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
-          Startseite</router-link>
+          Startseite
+        </router-link>
         <router-link to="/blog"
           class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
-          Blog</router-link>
+          Blog
+        </router-link>
+        <router-link to="/projects"
+          class="mr-5 hover:text-slate-900 dark:hover:text-white text-slate-600 dark:text-slate-400">
+          Projekte
+        </router-link>
       </nav>
 
       <button aria-label="Menü öffnen" @click="drawer" class="ml-auto">
@@ -44,10 +50,14 @@
           <i class="fa-solid fa-house-chimney mr-2"></i>
           <span>Startseite</span>
         </router-link>
-        <router-link to="/blog" @click="isOpen = false"
-          class="flex items-center p-4 hover:bg-primary hover:text-white">
+        <router-link to="/blog" @click="isOpen = false" class="flex items-center p-4 hover:bg-primary hover:text-white">
           <i class="fa-solid fa-books mr-2"></i>
           <span>Blog</span>
+        </router-link>
+        <router-link to="/projects" @click="isOpen = false"
+          class="flex items-center p-4 hover:bg-primary hover:text-white">
+          <i class="fa-solid fa-circle-nodes mr-2"></i>
+          <span>Projekte</span>
         </router-link>
 
         <span

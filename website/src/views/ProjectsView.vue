@@ -1,15 +1,15 @@
 <template>
   <div>
-      <BlogPost />
+      <Projects />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import BlogPost from '@/components/BlogPost.vue'
+import Projects from '@/components/Projects.vue'
 export default {
   components: {
-    BlogPost
+    Projects
   }
 }
 </script>

@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import NotFound from '../views/NotFound.vue'
-import ImprintView from '../views/ImprintView.vue'
 import BlogView from '../views/BlogView.vue'
 import BlogPostView from '../views/BlogPostView.vue'
+import ProjectsView from '../views/ProjectsView.vue'
 import TicTacToe from '../views/TicTacToe.vue'
+import NotFound from '../views/NotFound.vue'
+import ImprintView from '../views/ImprintView.vue'
 
 const routes = [{
         path: '/',
@@ -31,6 +32,102 @@ const routes = [{
                 {
                     property: 'twitter:description',
                     content: 'Hier findest du alles, was du wissen musst.'
+                },
+            ]
+        }
+    },
+    {
+        path: '/blog',
+        name: 'Blog',
+        component: BlogView,
+        meta: {
+            title: 'Blog · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Blog · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Blog · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
+                },
+            ]
+        }
+    },
+    {
+        path: '/blog/post/:slug',
+        name: 'Blog Post',
+        component: BlogPostView
+    },
+    {
+        path: '/blog/post',
+        redirect: '/blog'
+    },
+    {
+        path: '/projects',
+        name: 'Projekte',
+        component: ProjectsView,
+        meta: {
+            title: 'Projekte · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Projekte · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Projekte · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Projekte von Janik Rabenstein'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Projekte von Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Projekte von Janik Rabenstein'
+                },
+            ]
+        }
+    },
+    {
+        path: '/games/tictactoe',
+        name: 'Tic Tac Toe',
+        component: TicTacToe,
+        meta: {
+            title: 'Tic Tac Toe · Janik Rabenstein',
+            metaTags: [{
+                    property: 'og:title',
+                    content: 'Tic Tac Toe · Janik Rabenstein'
+                },
+                {
+                    property: 'twitter:title',
+                    content: 'Tic Tac Toe · Janik Rabenstein'
+                },
+                {
+                    name: 'description',
+                    content: 'Spiele Tic Tac Toe'
+                },
+                {
+                    property: 'og:description',
+                    content: 'Spiele Tic Tac Toe'
+                },
+                {
+                    property: 'twitter:description',
+                    content: 'Spiele Tic Tac Toe'
                 },
             ]
         }
@@ -122,73 +219,6 @@ const routes = [{
                 {
                     property: 'twitter:description',
                     content: 'Leider wurde diese Seite nicht gefunden.'
-                },
-            ]
-        }
-    },
-    {
-        path: '/blog',
-        name: 'Blog',
-        component: BlogView,
-        meta: {
-            title: 'Blog · Janik Rabenstein',
-            metaTags: [{
-                    property: 'og:title',
-                    content: 'Blog · Janik Rabenstein'
-                },
-                {
-                    property: 'twitter:title',
-                    content: 'Blog · Janik Rabenstein'
-                },
-                {
-                    name: 'description',
-                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
-                },
-                {
-                    property: 'og:description',
-                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
-                },
-                {
-                    property: 'twitter:description',
-                    content: 'Interessante Blog Beiträge von Janik Rabenstein'
-                },
-            ]
-        }
-    },
-    {
-        path: '/blog/post/:slug',
-        name: 'Blog Post',
-        component: BlogPostView
-    },
-    {
-        path: '/blog/post',
-        redirect: '/blog'
-    },
-    {
-        path: '/games/tictactoe',
-        name: 'Tic Tac Toe',
-        component: TicTacToe,
-        meta: {
-            title: 'Tic Tac Toe · Janik Rabenstein',
-            metaTags: [{
-                    property: 'og:title',
-                    content: 'Tic Tac Toe · Janik Rabenstein'
-                },
-                {
-                    property: 'twitter:title',
-                    content: 'Tic Tac Toe · Janik Rabenstein'
-                },
-                {
-                    name: 'description',
-                    content: 'Spiele Tic Tac Toe'
-                },
-                {
-                    property: 'og:description',
-                    content: 'Spiele Tic Tac Toe'
-                },
-                {
-                    property: 'twitter:description',
-                    content: 'Spiele Tic Tac Toe'
                 },
             ]
         }
